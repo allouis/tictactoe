@@ -1,0 +1,29 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "systemjs": "^0.15.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0"
+  },
+  "jspm": {
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "babel": "^4.7.16",
+      "react": "npm:react@^0.13.1",
+      "systemjs": "^0.15.0"
+    }
+  }
+}
